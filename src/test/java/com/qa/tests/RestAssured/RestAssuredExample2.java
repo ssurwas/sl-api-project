@@ -56,7 +56,7 @@ public class RestAssuredExample2 extends TestBase {
 
 		XmlPath xmlpath=response.getBody().xmlPath();
 
-		System.out.println(xmlpath.getString("orderstatus"));
+		System.out.println(xmlpath.getString("//soResponse/serviceorders[0]/serviceorder[0]/orderstatus[0]/soId"));
 		Headers header=response.getHeaders();
 		System.out.println("Headers are:- "+header);
 		System.out.println("value of content Type is:- "+header.getValue("content-type"));
