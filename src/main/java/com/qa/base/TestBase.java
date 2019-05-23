@@ -11,7 +11,7 @@ public int RESPONSE_STATUS_CODE_400=400;
 public int RESPONSE_STATUS_CODE_401=401;
 public int RESPONSE_STATUS_CODE_503=503;
 public int RESPONSE_STATUS_CODE_201=201;
-
+	public int RESPONSE_STATUS_CODE=201;
 
 	public Properties prop;
 	public TestBase()
